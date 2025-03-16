@@ -1,0 +1,49 @@
+# Data Source Description
+
+## Overview
+The primary data for this atmospheric environmental analysis project was collected during a NASA High Altitude Balloon (HAB) flight conducted on August 22, 2024. The flight was launched from the NASA High Altitude Balloon Facility in Fort Sumner, New Mexico, as part of a MaxIQ.Space educational initiative. The payload was one of eight student experiments selected for this mission, developed by Nipmuc Regional High School students under the supervision of an academic advisor.
+
+## Hardware Configuration
+The data collection system utilized the MaxIQ Space MK04 kit, which was specifically configured and coded for atmospheric environmental measurements. This hardware implementation followed completion of prerequisite Space STEM modules using the MK01 STEM kit and MK01A advanced sensors, ensuring proper system integration and data collection capabilities.
+
+## Dataset Structure
+The collected data is organized into two distinct CSV files:
+
+1. `adjusted_flight_data.csv`: Contains the primary environmental measurements including:
+   - Temperature readings (°C)
+   - UV Index measurements
+   - Ambient Light levels (lux)
+   - Atmospheric Pressure (hPa)
+   - Gas Index Readings
+   - Carbon Dioxide (CO2) concentrations (ppm)
+   - Total Volatile Organic Compounds (TVOC) levels (ppb)
+   - Timestamped records
+
+2. `gps_with_our_trim.csv`: Contains spatial tracking data including:
+   - Latitude coordinates
+   - Longitude coordinates
+   - Altitude measurements
+   - Temporal markers for geospatial correlation
+
+## Data Collection Context
+The data collection was conducted as part of NASA's annual high-altitude balloon program, which provides opportunities for student research projects to gather atmospheric data at various altitudes. This particular project was conducted by students from Nipmuc Regional High School. The flight path traversed multiple atmospheric layers, enabling the collection of vertical profile data for various environmental parameters.
+
+## Quality Assurance
+The data collection process was supported by:
+- Pre-flight equipment validation through MaxIQ.Space's virtual workshops
+- Technical support and guidance from MaxIQ.Space's technical team
+- Standardized integration procedures ensuring consistent data collection
+- Post-flight data verification during the comparative analysis workshop
+
+## Data Access and Ownership
+The dataset was obtained through academic collaboration, with proper attribution to the student researchers from Nipmuc Regional High School and their academic advisor involved in the project. The data collection was facilitated through MaxIQ.Space's NASA HAB Mission program, which provides the necessary infrastructure and support for student research projects.
+
+## Temporal Coverage
+The dataset encompasses measurements from the entire flight duration on August 22, 2024, capturing:
+- Pre-launch conditions
+- Ascent phase measurements
+- High-altitude environmental conditions
+- Descent phase recordings
+- Landing phase data
+
+This comprehensive temporal coverage enables analysis of atmospheric conditions across various altitudes and times of day, supporting the project's research objectives in environmental pattern recognition and atmospheric layer characterization.
